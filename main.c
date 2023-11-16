@@ -10,9 +10,6 @@
 int main(int argc, char *argv[])
 {
 	FILE *fichier;
-	char *ligne = NULL;
-	size_t len = 0;
-	ssize_t m;
 	stack_t *ss = NULL;
 	stack_t *temp = ss;
 	
