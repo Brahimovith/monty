@@ -32,7 +32,7 @@ void executer(char *opcode, stack_t **ss,unsigned int nline)
 			}
 			
 		}
-		fprintf(stderr, "unknowen %d\n" ,nline);
+		fprintf(stderr, "L%d: unknown instruction %s\n" ,nline,opcode);
 		exit(EXIT_FAILURE);
 			
 
